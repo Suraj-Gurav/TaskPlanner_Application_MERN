@@ -1,0 +1,19 @@
+.headerMainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: grey;
+}
+.headerName{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.headerLogOutBtn{
+    margin: 0px 7px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}

@@ -1,0 +1,92 @@
+/* ------------Form section---------------- */
+.registerMain{
+  margin:15px 0;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: white;
+  padding:10px 0 ;
+
+}
+.filed{
+  margin-left: 15px;
+}
+.errorMsgStyle{
+    margin: 0px 0px 0px 5px;
+    font-size: 12px;
+    color: red;
+}
+.registerMain .icon{
+  position:relative;
+  color: black;
+  right:30px;
+  top: 5px;
+}
+.registerMain .userIcon{
+  font-size: 2rem;
+  color: rgb(196, 147, 243);
+  border: 4px solid rgb(196, 147, 243);
+  padding: 5px;
+  border-radius: 50%;
+
+}
+.registerMain input[type="text"],.registerMain input[type="password"],textarea{
+  width: 300px;
+  padding: 10px;
+  margin: 5px 0;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.registerMain input[type="text"]:focus,.registerMain input[type="password"]:focus,textarea:focus,select:focus{
+  border: 2px solid rgb(196, 147, 243);
+}
+.registerMain textarea{
+  resize: none;
+}
+.registerMain select,.registerMain button{
+  width: 320px;
+  padding: 10px;
+  margin: 5px 0;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.registerMain h1{
+  padding: 0;
+  margin:auto;
+  color: rgb(196, 147, 243);
+  text-shadow: 1px 1px 2px blueviolet;
+}
+.registerMain button{
+  margin-bottom:10px;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  background:linear-gradient(to left, rgb(116, 67, 184),rgb(165, 133, 197));
+  border-radius:5px;
+  border: 0px solid black;
+  outline: none;
+  margin:10px 0;
+}
+.registerMain button:hover{
+  background:linear-gradient(to right,rgb(120, 47, 193), rgb(42, 19, 75));
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.registerMain label{
+  color: rgb(126, 124, 124);
+  margin-left: 5px;
+}
+.registerMain small{
+  color: red;
+  margin-bottom:5px;
+}
+.registerMain h2{
+  margin:20px 0;
+  font-size: 2rem;
+}

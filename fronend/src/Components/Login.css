@@ -1,0 +1,93 @@
+.divMain{
+    background-color: white;
+    border: 1px solid black;
+    width: 400px;
+    color: black;
+    border-radius: 10px;
+    position: relative;
+}
+.heading{
+    text-align: center;
+    color: rgb(196, 147, 243);
+    margin-left:-40px;
+}
+.loginFiled{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+}
+.loginErrorMsg{
+    margin: -15px 0px 0px 5px;
+    font-size: 12px;
+    color: red;
+}
+
+.label1{
+    color: rgb(126, 124, 124);
+    margin-bottom: 5px;
+}
+.loginicon{
+    color: rgb(196, 147, 243);
+    position: absolute;
+    left:60%;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.divMain small{
+    color: red;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+.divMain .icon1{
+    position:relative;
+    color: black;
+    bottom:30px;
+    left:250px;
+}
+.divMain input[type='text'],.divMain input[type="password"]{
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.divMain input:focus{
+    border: 1px solid rgb(120, 47, 193);
+}
+
+.divMain .btn:hover{
+    background:linear-gradient(to right,rgb(120, 47, 193), rgb(42, 19, 75));
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.divMain .btn{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family:sans-serif;
+    padding:10px;
+    margin:5px 0;
+    font-size:1.2rem;
+    letter-spacing: 1px;
+    background:linear-gradient(to left, rgb(116, 67, 184),rgb(165, 133, 197));
+    border-radius:10px;
+    border: 0px solid black;
+    outline: none;
+  }
+.divMain ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+hr{
+    width: 80%;
+}
+.divMain li{
+    color: blue;
+    font-size: 1.2rem;
+    list-style: none;
+    margin:0 10px ;
+}
